@@ -115,4 +115,5 @@ fi
 # Change default history format to include date and time
 HISTTIMEFORMAT="%F %T "
 # Change default bash editor to vi commands
-set -o vi
+# This is unnecessary as .inputrc updates readline to use Vi
+# set -o vi

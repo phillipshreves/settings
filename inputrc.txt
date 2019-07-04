@@ -1,0 +1,7 @@
+# Use Vi editor
+set editing-mode vi
+
+# For auto-completion, ignore case differences
+set completion-ignore-case on
+# No need to double-tab for multiple matches!
+set show-all-if-ambiguous on
