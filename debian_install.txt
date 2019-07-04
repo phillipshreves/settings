@@ -1,0 +1,15 @@
+su
+adduser phillip sudo
+vi /etc/apt/sources.list #remove any cd references, do not use debian-backports!
+apt-get install aptitude
+reboot
+sudo aptitude update
+sudo aptitude install chromium chromium-l10n
+sudo aptitude install firmware-linux
+sudo aptitude install llvm clang
+sudo aptitude install vim
+sudo aptitude install vim-gtk
+sudo aptitude install build-essential
+sudo aptitude install firmware-iwlwifi
+
+sudo aptitude install libgtk-3-dev #Only necessary for KDE environment
