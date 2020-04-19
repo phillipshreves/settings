@@ -43,3 +43,11 @@ set undofile " Maintain undo history between sessions
 set undodir=~/.vim/undodir
 set nomodeline
 set paste
+
+colorscheme desert
+set guifont=Unispace:h10
+
+set encoding=utf-8
+set showbreak=>>>>
+set listchars=eol:@,tab:<·>,space:·
+set list
