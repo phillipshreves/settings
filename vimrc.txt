@@ -44,6 +44,11 @@ set undodir=~/.vim/undodir
 set nomodeline
 set paste
 
+if &diff
+	set mouse=a
+	set diffopt+=iwhite
+endif
+
 colorscheme desert
 set guifont=Unispace:h10
 
