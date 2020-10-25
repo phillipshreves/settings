@@ -121,4 +121,4 @@ HISTTIMEFORMAT="%F %T "
 # set -o vi
 
 # new terminals open in current directory instead of home
-. /etc/profile.d/vte.sh
+. /etc/profile.d/vte-2.91.sh
