@@ -117,3 +117,6 @@ HISTTIMEFORMAT="%F %T "
 # Change default bash editor to vi commands
 # This is unnecessary as .inputrc updates readline to use Vi
 # set -o vi
+
+# new terminals open in current directory instead of home
+. /etc/profile.d/vte.sh
