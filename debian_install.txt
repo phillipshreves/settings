@@ -1,5 +1,5 @@
 su
-adduser phillip sudo
+adduser $NAME sudo
 vi /etc/apt/sources.list #remove any cd references, do not use debian-backports!
 apt-get install aptitude
 reboot
